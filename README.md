@@ -120,7 +120,6 @@ git pull https://github.com/navyz/docker-jenkins.git (if you have not pull)
 cd docker-jenkins/jenkins-data
 docker build . sonlmz/jenkins-data
 ```
-Open your browser and access to the address http://localhost:8081, the "Welcome to springboot + gradle + docker + jenkins" should be there!
 
 
 ## Run application
@@ -152,7 +151,7 @@ After all the plugins are installed, go back to jenkins home page by clicking Je
 On the new form, provide the following information
 - Name: worker
 - Description: the agent to execute all build command
-- # of executes: 3
+- Number of executes: 3
 - Remote directory: /var/lib/jenkins
 > this is the jenkins home directory
 - Labels: jenkins-worker
